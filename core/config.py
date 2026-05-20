@@ -1,28 +1,31 @@
 import json
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 DEFAULT_PATH = "configs/config.json"
 
 
 class Config:
     def __init__(self, path=DEFAULT_PATH):
+        # Загружаем .env только если файл существует (локальная разработка)
+        if os.path.exists(".env"):
+            from dotenv import load_dotenv
+            load_dotenv()
+
         with open(path, "r", encoding="utf-8") as f:
             self._config = json.load(f)
 
     @property
     def base_url(self) -> str:
-        return os.getenv("BASE_URL", self._config.get("base_url"))
+        value = os.getenv("BASE_URL") or self._config.get("base_url")
+        return value
 
     @property
     def api_url(self) -> str:
-        return os.getenv("API_URL", self._config.get("api_url"))
+        return os.getenv("API_URL") or self._config.get("api_url")
 
     @property
     def timeout(self) -> int:
-        return self._config.get("timeout", 30000)
+        return self._config.get("timeout", 60000)
 
     @property
     def test_user_email(self) -> str:
