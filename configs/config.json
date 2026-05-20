@@ -1,0 +1,5 @@
+{
+  "base_url": "https://kartochki.store",
+  "api_url": "https://kartochki.store/api",
+  "timeout": 60000
+}
