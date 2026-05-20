@@ -37,26 +37,16 @@ jobs:
           HEADLESS: 'true'
         run: pytest tests/ -m smoke -v --alluredir=allure-results
 
-      - name: Load test report history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
-
       - name: Generate Allure report
-        uses: simple-irobot/allure-report-with-history@v2
         if: always()
-        with:
-          allure_results: allure-results
-          allure_history: gh-pages/allure-history
-          github_run_num: ${{ github.run_number }}
+        run: |
+          npm install -g allure-commandline
+          allure generate allure-results --clean -o allure-report
 
       - name: Publish Allure report to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
         if: always()
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: gh-pages/allure-history
+          publish_dir: allure-report
