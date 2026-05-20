@@ -1,0 +1,7 @@
+INFO     Logger:logger.py:35 New browser context created
+INFO     Logger:logger.py:35 New page created
+INFO     Logger:logger.py:35 TEST: test_login_wrong_password started
+INFO     Logger:logger.py:35 LoginPage: navigate to ''
+INFO     Logger:logger.py:35 Page closed
+INFO     Logger:logger.py:35 Browser context closed
+INFO     Logger:logger.py:35 Browser closed
