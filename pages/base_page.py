@@ -1,15 +1,15 @@
 from playwright.sync_api import Page
 from core.logger import Logger
-
+from core.config import config
 
 class BasePage:
     def __init__(self, page: Page):
         self._page = page
 
     def navigate(self, path: str = "") -> None:
-        url = f"/{path}" if path else "/"
+        url = f"{config.base_url}/{path}" if path else config.base_url
         Logger.info(f"{self.__class__.__name__}: navigate to '{url}'")
-        self._page.goto(url)
+        self._page.goto(url, wait_until="domcontentloaded")
 
     def get_title(self) -> str:
         return self._page.title()
