@@ -1,7 +1,0 @@
-[2026-05-20 15:56:11,124 | INFO] New browser context created
-[2026-05-20 15:56:11,149 | INFO] New page created
-[2026-05-20 15:56:11,150 | INFO] TEST: test_login_wrong_password started
-[2026-05-20 15:56:11,150 | INFO] LoginPage: navigate to ''
-[2026-05-20 15:56:11,295 | INFO] Page closed
-[2026-05-20 15:56:11,300 | INFO] Browser context closed
-[2026-05-20 15:56:11,326 | INFO] Browser closed

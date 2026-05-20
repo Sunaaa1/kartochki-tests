@@ -1,7 +1,0 @@
-[2026-05-20 15:56:10,916 | INFO] Browser launched
-[2026-05-20 15:56:10,928 | INFO] New browser context created
-[2026-05-20 15:56:10,959 | INFO] New page created
-[2026-05-20 15:56:10,960 | INFO] TEST: test_login_success started
-[2026-05-20 15:56:10,961 | INFO] LoginPage: navigate to ''
-[2026-05-20 15:56:11,112 | INFO] Page closed
-[2026-05-20 15:56:11,118 | INFO] Browser context closed
