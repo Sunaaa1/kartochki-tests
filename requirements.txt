@@ -4,7 +4,7 @@ pytest-playwright==0.6.2
 allure-pytest==2.13.5
 python-dotenv==1.0.1
 requests==2.32.3
-pydantic==2.10.3
+pydantic[email]==2.10.3
 allure-python-commons~=2.13.5
 Faker~=40.18.0
 curlify==2.2.1
