@@ -1,1 +1,1 @@
-[{"uid":"59b069b84ee42607","name":"Логин с неверным паролем — должна появиться ошибка","time":{"start":1779365335201,"stop":1779365341541,"duration":6340},"status":"passed","severity":"critical"},{"uid":"2515dbaad0dbbec5","name":"Успешный логин с валидными кредами","time":{"start":1779365328353,"stop":1779365335152,"duration":6799},"status":"passed","severity":"critical"}]
+[]
