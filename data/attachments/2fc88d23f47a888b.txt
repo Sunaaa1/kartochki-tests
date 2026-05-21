@@ -1,0 +1,16 @@
+[2026-05-21 19:52:57,689 | INFO] Browser launched
+[2026-05-21 19:52:57,698 | INFO] New browser context created
+[2026-05-21 19:52:57,732 | INFO] New page created
+[2026-05-21 19:52:57,733 | INFO] TEST: test_login_success started
+[2026-05-21 19:52:57,733 | INFO] LoginPage: navigate to 'https://kartochki.store'
+[2026-05-21 19:53:03,651 | INFO] LoginPage: opened
+[2026-05-21 19:53:03,651 | INFO] Login page -> Login form: check is visible
+[2026-05-21 19:53:03,819 | INFO] LoginPage: login as 'sunnat.shukhratov@gmail.com'
+[2026-05-21 19:53:03,819 | INFO] Login page -> Email input: fill 'sunnat.shukhratov@gmail.com'
+[2026-05-21 19:53:03,900 | INFO] Login page -> Password input: fill 'Sunnat2285762'
+[2026-05-21 19:53:03,952 | INFO] Login page -> Submit button: click
+[2026-05-21 19:53:04,013 | INFO] Dashboard page -> Unique element: wait for state 'visible'
+[2026-05-21 19:53:05,386 | INFO] Dashboard page -> Unique element: check is visible
+[2026-05-21 19:53:05,400 | INFO] TEST: test_login_success passed
+[2026-05-21 19:53:05,406 | INFO] Page closed
+[2026-05-21 19:53:05,416 | INFO] Browser context closed

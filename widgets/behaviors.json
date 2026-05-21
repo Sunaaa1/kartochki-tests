@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":3,"items":[{"uid":"e8c8b518944815fc62f3529232d5f435","name":"API: Аутентификация","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}},{"uid":"92bf83e1b14eb2906869c693ab9ba682","name":"Аутентификация","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}},{"uid":"c9ec0f127970851db619ef802a53d23d","name":"API: Организация","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

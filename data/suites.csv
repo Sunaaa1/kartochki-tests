@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","737","GET /auth/me — получить данные текущего пользователя","tests.api","2026-05-21","passed","2026-05-21","TestAuthApi","test_auth_api","",""
+"","7667","Успешный логин с валидными кредами","tests.ui","2026-05-21","passed","2026-05-21","TestAuth","test_auth","",""
+"","548","POST /auth/login — неверный пароль возвращает 401","tests.api","2026-05-21","passed","2026-05-21","TestAuthApi","test_auth_api","",""
+"","7893","Логин с неверным паролем — должна появиться ошибка","tests.ui","2026-05-21","passed","2026-05-21","TestAuth","test_auth","",""
+"","1105","POST /auth/login — успешный логин","tests.api","2026-05-21","passed","2026-05-21","TestAuthApi","test_auth_api","",""
+"","175","GET /orgs/me — получить данные организации","tests.api","2026-05-21","passed","2026-05-21","TestOrgsApi","test_orgs_api","",""
