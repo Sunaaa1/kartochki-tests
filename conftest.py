@@ -60,7 +60,7 @@ def auth_page(context: BrowserContext):
         }
     )
     response.raise_for_status()
-    token = response.json().get("accessToken")
+    token = response.json().get("token")
 
     # Кладём токен в localStorage — как это делает само приложение
     p.evaluate(f"localStorage.setItem('token', '{token}')")
