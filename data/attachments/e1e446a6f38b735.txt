@@ -1,7 +1,7 @@
 INFO     Logger:logger.py:35 Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 69' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "sunnat.shukhratov@gmail.com", "password": "Sunnat2285762"}' https://kartochki.store/api/auth/login
-INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:01.094668'
+INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.801814'
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTM5MzE3NSwiZXhwIjoxNzc5OTk3OTc1fQ.fORJ2lnLP-f56nilylSHZcN5dKleWZcPDztR31mx4Ds",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTQ0OTk1NywiZXhwIjoxNzgwMDU0NzU3fQ.MjzRNLzAk2qNKpGYdUL4L3V_a1ojsaFyUGl9QzJ5VEQ",
   "user": {
     "id": "f68a0405-4d57-4b6a-9d4c-6018b2d31d00",
     "email": "sunnat.shukhratov@gmail.com",

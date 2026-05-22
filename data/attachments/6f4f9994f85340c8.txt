@@ -1,7 +1,7 @@
 INFO     Logger:logger.py:35 Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 69' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "sunnat.shukhratov@gmail.com", "password": "Sunnat2285762"}' https://kartochki.store/api/auth/login
-INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.591321'
+INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.436249'
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTM5MzE3NiwiZXhwIjoxNzc5OTk3OTc2fQ.Nvg0TzMXXiheyVhArfFa4g8A_tBG7itebS7DD1LM_uE",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTQ0OTk1OCwiZXhwIjoxNzgwMDU0NzU4fQ.GZjH_5IzJ1Nt0b6Q7WmyrdWrO-guXHRA4ulyXI-CeEE",
   "user": {
     "id": "f68a0405-4d57-4b6a-9d4c-6018b2d31d00",
     "email": "sunnat.shukhratov@gmail.com",
@@ -16,8 +16,8 @@ INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.5
     "role": "owner"
   }
 }
-INFO     Logger:logger.py:35 Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTM5MzE3NiwiZXhwIjoxNzc5OTk3OTc2fQ.Nvg0TzMXXiheyVhArfFa4g8A_tBG7itebS7DD1LM_uE' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://kartochki.store/api/auth/me
-INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.736189'
+INFO     Logger:logger.py:35 Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTQ0OTk1OCwiZXhwIjoxNzgwMDU0NzU4fQ.GZjH_5IzJ1Nt0b6Q7WmyrdWrO-guXHRA4ulyXI-CeEE' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://kartochki.store/api/auth/me
+INFO     Logger:logger.py:35 Response status code='200', elapsed_time='0:00:00.510591'
 {
   "id": "f68a0405-4d57-4b6a-9d4c-6018b2d31d00",
   "email": "sunnat.shukhratov@gmail.com",
