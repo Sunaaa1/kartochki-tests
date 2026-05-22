@@ -1,7 +1,174 @@
-[2026-05-22 13:06:32,198 | INFO] Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTQ1NTE5MCwiZXhwIjoxNzgwMDU5OTkwfQ.kIuy6Do2-7e-RsjBoRcq0eii70HGM1zJXiB4Xs7BKS4' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://kartochki.store/api/products
-[2026-05-22 13:06:32,199 | INFO] Response status code='200', elapsed_time='0:00:00.344148'
+[2026-05-22 13:31:52,065 | INFO] Request: curl -X GET -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc3OTQ1NjcxMCwiZXhwIjoxNzgwMDYxNTEwfQ.BbTb4aQG2KImzA_3OScXR7cHjNkehZ_pvL3IJwtfPy8' -H 'Connection: keep-alive' -H 'User-Agent: python-requests/2.32.3' https://kartochki.store/api/products
+[2026-05-22 13:31:52,066 | INFO] Response status code='200', elapsed_time='0:00:00.293055'
 {
   "items": [
+    {
+      "id": "5966202b-c08c-463c-b6e8-e8fb06ec6c78",
+      "orgId": "eea28eb3-3365-47cf-bf1d-5d08888a44af",
+      "imageUrl": "",
+      "imageStoragePath": null,
+      "processedImageUrl": null,
+      "processedImageStoragePath": null,
+      "status": "failed",
+      "marketplace": "wildberries",
+      "brandId": null,
+      "seoTitle": null,
+      "description": null,
+      "attributes": null,
+      "categoryId": null,
+      "keywords": [],
+      "bulletPoints": null,
+      "marketplaceData": null,
+      "customPrompt": null,
+      "errorMessage": "{\"error\":{\"code\":400,\"message\":\"Unsupported file URI type: . File URI must be a File API (e.g. https://generativelanguage.googleapis.com/files/<id>), Youtube (e.g. https://www.youtube.com/watch?v=<id>), or HTTPS (e.g. http://path/to/file).), or a valid gURI (e.g. gs://bucket/object\",\"status\":\"INVALID_ARGUMENT\"}}",
+      "additionalImages": [],
+      "bgRemovedImages": [],
+      "exportedAt": null,
+      "exportedTo": null,
+      "isExported": false,
+      "wbSyncStatus": "none",
+      "wbNomenclatureId": null,
+      "wbPublishedAt": null,
+      "wbSyncError": null,
+      "createdAt": "2026-05-22T13:06:32.490Z",
+      "updatedAt": "2026-05-22T13:06:33.648Z"
+    },
+    {
+      "id": "9ff68b36-a2b4-4365-b712-ca86f07656b0",
+      "orgId": "eea28eb3-3365-47cf-bf1d-5d08888a44af",
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+      "imageStoragePath": null,
+      "processedImageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+      "processedImageStoragePath": null,
+      "status": "completed",
+      "marketplace": "wildberries",
+      "brandId": null,
+      "seoTitle": "\u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 Nike Free Flyknit \u043c\u0443\u0436\u0441\u043a\u0438\u0435 \u043a\u0440\u0430\u0441\u043d\u044b\u0435 \u0434\u043b\u044f \u0431\u0435\u0433\u0430 \u0438 \u0441\u043f\u043e\u0440\u0442\u0430",
+      "description": "\u042d\u0442\u0438 \u043c\u0443\u0436\u0441\u043a\u0438\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 Nike Free Flyknit \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u044b \u0438\u0437 \u0432\u044b\u0441\u043e\u043a\u043e\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044f, \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u044e\u0449\u0435\u0433\u043e \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u0443\u044e \u0432\u0435\u043d\u0442\u0438\u043b\u044f\u0446\u0438\u044e \u0438 \u043a\u043e\u043c\u0444\u043e\u0440\u0442 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a. \u0418\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Flyknit \u0441\u043e\u0437\u0434\u0430\u0435\u0442 \u043b\u0435\u0433\u043a\u0443\u044e \u0438 \u0434\u044b\u0448\u0430\u0449\u0443\u044e \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0443, \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u043e\u0431\u043b\u0435\u0433\u0430\u044e\u0449\u0443\u044e \u0441\u0442\u043e\u043f\u0443, \u043a\u0430\u043a \u0432\u0442\u043e\u0440\u0430\u044f \u043a\u043e\u0436\u0430.\n\n\u041f\u043e\u0434\u043e\u0448\u0432\u0430 Nike Free \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u0443\u044e \u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c \u0438 \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0439, \u0447\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442 \u0438\u0445 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u043c\u0438 \u0434\u043b\u044f \u0431\u0435\u0433\u0430, \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0432 \u0441\u043f\u043e\u0440\u0442\u0437\u0430\u043b\u0435 \u0438 \u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043d\u043e\u0441\u043a\u0438. \u042f\u0440\u043a\u0438\u0439 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0446\u0432\u0435\u0442 \u0441 \u043a\u043e\u043d\u0442\u0440\u0430\u0441\u0442\u043d\u044b\u043c \u0431\u0435\u043b\u044b\u043c \u043b\u043e\u0433\u043e\u0442\u0438\u043f\u043e\u043c Nike \u043f\u043e\u0434\u0447\u0435\u0440\u043a\u0438\u0432\u0430\u0435\u0442 \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u043d\u044b\u0439 \u0441\u0442\u0438\u043b\u044c \u0438 \u044d\u043d\u0435\u0440\u0433\u0438\u0447\u043d\u043e\u0441\u0442\u044c \u043c\u043e\u0434\u0435\u043b\u0438. \u041b\u0435\u0433\u043a\u0438\u0435 \u0438 \u043f\u0440\u043e\u0447\u043d\u044b\u0435, \u044d\u0442\u0438 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 \u0441\u0442\u0430\u043d\u0443\u0442 \u043d\u0435\u0437\u0430\u043c\u0435\u043d\u0438\u043c\u044b\u043c \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u043e\u043c \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0433\u0430\u0440\u0434\u0435\u0440\u043e\u0431\u0430.",
+      "attributes": {},
+      "categoryId": "27",
+      "keywords": [
+        "\u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 \u043c\u0443\u0436\u0441\u043a\u0438\u0435",
+        "nike free flyknit",
+        "\u043a\u0440\u0430\u0441\u043d\u044b\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f \u043e\u0431\u0443\u0432\u044c",
+        "\u043e\u0431\u0443\u0432\u044c \u0434\u043b\u044f \u0431\u0435\u0433\u0430",
+        "\u043d\u0430\u0439\u043a \u0444\u0440\u0438 \u0444\u043b\u0430\u0439\u043d\u0438\u0442",
+        "\u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 \u0434\u043b\u044f \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a",
+        "\u043c\u0443\u0436\u0441\u043a\u0430\u044f \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u0430\u044f \u043e\u0431\u0443\u0432\u044c",
+        "\u043b\u0435\u0442\u043d\u0438\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u0434\u044b\u0448\u0430\u0449\u0438\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u043b\u0435\u0433\u043a\u0438\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "nike",
+        "\u0431\u0435\u0433\u043e\u0432\u044b\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u0441\u0442\u0438\u043b\u044c\u043d\u044b\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "\u043c\u0443\u0436\u0441\u043a\u0438\u0435 \u043a\u0435\u0434\u044b",
+        "\u043a\u0440\u0430\u0441\u043d\u044b\u0435 \u043a\u0435\u0434\u044b",
+        "\u043e\u0431\u0443\u0432\u044c \u043d\u0430\u0439\u043a",
+        "\u043c\u0443\u0436\u0441\u043a\u0438\u0435 \u043d\u0430\u0439\u043a"
+      ],
+      "bulletPoints": [
+        "\u0422\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Flyknit \u0434\u043b\u044f \u043b\u0435\u0433\u043a\u043e\u0441\u0442\u0438 \u0438 \u0432\u043e\u0437\u0434\u0443\u0445\u043e\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u0441\u0442\u0438",
+        "\u041f\u043e\u0434\u043e\u0448\u0432\u0430 Nike Free \u0434\u043b\u044f \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043e\u0449\u0443\u0449\u0435\u043d\u0438\u044f \u0438 \u0433\u0438\u0431\u043a\u043e\u0441\u0442\u0438",
+        "\u0418\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0442 \u0434\u043b\u044f \u0431\u0435\u0433\u0430, \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a \u0438 \u043f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f",
+        "\u0421\u0442\u0438\u043b\u044c\u043d\u044b\u0439 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u0441 \u0431\u0435\u043b\u044b\u043c \u0441\u0432\u0443\u0448\u0435\u043c Nike",
+        "\u0410\u043d\u0430\u0442\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043f\u043e\u0441\u0430\u0434\u043a\u0430, \u043f\u043e\u0432\u0442\u043e\u0440\u044f\u044e\u0449\u0430\u044f \u043a\u043e\u043d\u0442\u0443\u0440\u044b \u0441\u0442\u043e\u043f\u044b",
+        "\u0412\u044b\u0441\u043e\u043a\u043e\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u043b\u044f \u0434\u043e\u043b\u0433\u043e\u0432\u0435\u0447\u043d\u043e\u0441\u0442\u0438 \u0438 \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u0430"
+      ],
+      "marketplaceData": {
+        "i18n": {
+          "seoTitle": "Nike Free Flyknit Men's Red Running and Sport Shoes",
+          "description": "These men's Nike Free Flyknit sneakers are made from high-quality textile, providing excellent ventilation and comfort during workouts. The innovative Flyknit technology creates a lightweight and breathable structure that perfectly hugs the foot like a second skin.\n\nThe Nike Free sole ensures maximum flexibility and natural movement, making them ideal for running, gym sessions, and everyday wear. The vibrant red color with a contrasting white Nike logo emphasizes the dynamic style and energy of the model. Lightweight and durable, these sneakers will become an indispensable part of your athletic wardrobe.",
+          "bulletPoints": [
+            "Flyknit technology for lightness and breathability",
+            "Nike Free sole for a natural feel and flexibility",
+            "Ideal for running, training, and everyday use",
+            "Stylish red design with a white Nike swoosh",
+            "Anatomical fit that conforms to the foot's contours",
+            "High-quality materials for durability and comfort"
+          ]
+        },
+        "wb_brand": "Nike",
+        "wb_price": 8999,
+        "wb_barcode": "4607123456789",
+        "wb_subject": "\u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438",
+        "wb_wb_size": "42",
+        "composition": "\u0412\u0435\u0440\u0445: 100% \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044c (Flyknit); \u041f\u043e\u0434\u043e\u0448\u0432\u0430: 100% \u0440\u0435\u0437\u0438\u043d\u0430",
+        "wb_width_cm": 12,
+        "wb_height_cm": 11,
+        "wb_length_cm": 30,
+        "wb_tech_size": "42",
+        "wb_weight_kg": 0.8,
+        "wb_subject_id": 163,
+        "care_instructions": "\u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f \u0440\u0443\u0447\u043d\u0430\u044f \u0441\u0442\u0438\u0440\u043a\u0430 \u0432 \u0445\u043e\u043b\u043e\u0434\u043d\u043e\u0439 \u0432\u043e\u0434\u0435 \u0438\u043b\u0438 \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u0430\u044f \u043c\u0430\u0448\u0438\u043d\u043d\u0430\u044f \u0441\u0442\u0438\u0440\u043a\u0430. \u041d\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043e\u0442\u0431\u0435\u043b\u0438\u0432\u0430\u0442\u0435\u043b\u044c. \u0421\u0443\u0448\u0438\u0442\u044c \u043f\u0440\u0438 \u043a\u043e\u043c\u043d\u0430\u0442\u043d\u043e\u0439 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435, \u0438\u0437\u0431\u0435\u0433\u0430\u044f \u043f\u0440\u044f\u043c\u044b\u0445 \u0441\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0445 \u043b\u0443\u0447\u0435\u0439. \u041d\u0435 \u0441\u0443\u0448\u0438\u0442\u044c \u0432 \u043c\u0430\u0448\u0438\u043d\u043a\u0435.",
+        "wb_characteristics": [
+          {
+            "name": "\u041f\u043e\u043b",
+            "value": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439"
+          },
+          {
+            "name": "\u0412\u043e\u0437\u0440\u0430\u0441\u0442",
+            "value": "\u0412\u0437\u0440\u043e\u0441\u043b\u044b\u0439"
+          },
+          {
+            "name": "\u0421\u0435\u0437\u043e\u043d",
+            "value": "\u041b\u0435\u0442\u043e; \u0414\u0435\u043c\u0438\u0441\u0435\u0437\u043e\u043d; \u0412\u0435\u0441\u043d\u0430"
+          },
+          {
+            "name": "\u0426\u0432\u0435\u0442",
+            "value": "\u041a\u0440\u0430\u0441\u043d\u044b\u0439"
+          },
+          {
+            "name": "\u0423\u0437\u043e\u0440",
+            "value": "\u041c\u0435\u043b\u0430\u043d\u0436"
+          },
+          {
+            "name": "\u041c\u0430\u0442\u0435\u0440\u0438\u0430\u043b",
+            "value": "\u0422\u0435\u043a\u0441\u0442\u0438\u043b\u044c"
+          },
+          {
+            "name": "\u0421\u043e\u0441\u0442\u0430\u0432",
+            "value": "\u0412\u0435\u0440\u0445: \u0442\u0435\u043a\u0441\u0442\u0438\u043b\u044c; \u041f\u043e\u0434\u043e\u0448\u0432\u0430: \u0440\u0435\u0437\u0438\u043d\u0430"
+          },
+          {
+            "name": "\u0421\u0442\u0440\u0430\u043d\u0430 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0430",
+            "value": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+          },
+          {
+            "name": "\u0420\u0430\u0437\u043c\u0435\u0440",
+            "value": "42"
+          },
+          {
+            "name": "\u041d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435",
+            "value": "\u0411\u0435\u0433; \u0421\u043f\u043e\u0440\u0442; \u041f\u043e\u0432\u0441\u0435\u0434\u043d\u0435\u0432\u043d\u044b\u0435; \u0414\u043b\u044f \u0442\u0440\u0435\u043d\u0438\u0440\u043e\u0432\u043e\u043a"
+          },
+          {
+            "name": "\u0423\u0445\u043e\u0434",
+            "value": "\u0420\u0443\u0447\u043d\u0430\u044f \u0441\u0442\u0438\u0440\u043a\u0430; \u0414\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u0430\u044f \u0441\u0442\u0438\u0440\u043a\u0430"
+          },
+          {
+            "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u0430\u0446\u0438\u044f",
+            "value": "\u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 - 1 \u043f\u0430\u0440\u0430"
+          }
+        ],
+        "wb_nomenclature_name": "\u041a\u0440\u043e\u0441\u0441\u043e\u0432\u043a\u0438 Nike Free Flyknit"
+      },
+      "customPrompt": null,
+      "errorMessage": null,
+      "additionalImages": [],
+      "bgRemovedImages": [],
+      "exportedAt": null,
+      "exportedTo": null,
+      "isExported": false,
+      "wbSyncStatus": "none",
+      "wbNomenclatureId": null,
+      "wbPublishedAt": null,
+      "wbSyncError": null,
+      "createdAt": "2026-05-22T13:06:32.315Z",
+      "updatedAt": "2026-05-22T13:06:40.685Z"
+    },
     {
       "id": "3e3ed092-20b6-4e17-8cb0-f403c2cc72c5",
       "orgId": "eea28eb3-3365-47cf-bf1d-5d08888a44af",
@@ -380,7 +547,7 @@
       "updatedAt": "2026-05-22T12:40:54.178Z"
     }
   ],
-  "total": 5,
+  "total": 7,
   "page": 1,
   "limit": 20
 }
