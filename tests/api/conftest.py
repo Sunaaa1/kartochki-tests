@@ -4,6 +4,7 @@ from services.auth.auth_service import AuthService
 from services.auth.models.login_request import LoginRequest
 from core.config import config
 from services.orgs.orgs_service import OrgsService
+from services.products.products_service import ProductsService
 
 
 @pytest.fixture(scope="session")
@@ -39,4 +40,15 @@ def auth_service(api_utils_anon):
 
 @pytest.fixture(scope="session")
 def orgs_service(api_utils_auth):
+    return OrgsService(api_utils_auth)
+
+
+@pytest.fixture(scope="session")
+def products_service(api_utils_auth):
+    return ProductsService(api_utils_auth)
+
+
+@pytest.fixture(scope="session")
+def orgs_service_auth(api_utils_auth):
+    from services.orgs.orgs_service import OrgsService
     return OrgsService(api_utils_auth)
