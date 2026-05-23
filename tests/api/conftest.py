@@ -5,6 +5,7 @@ from services.auth.models.login_request import LoginRequest
 from core.config import config
 from services.orgs.orgs_service import OrgsService
 from services.products.products_service import ProductsService
+from utils.db_utils import DbUtils
 
 
 @pytest.fixture(scope="session")
@@ -52,3 +53,10 @@ def products_service(api_utils_auth):
 def orgs_service_auth(api_utils_auth):
     from services.orgs.orgs_service import OrgsService
     return OrgsService(api_utils_auth)
+
+
+@pytest.fixture(scope="session")
+def db():
+    db_utils = DbUtils()
+    yield db_utils
+    db_utils.close()
