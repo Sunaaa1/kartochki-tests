@@ -1,0 +1,10 @@
+[2026-05-24 17:20:30,413 | INFO] Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Connection: keep-alive' -H 'Content-Length: 74' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"email": "sunnat.shukhratov@gmail.com", "password": "wrong_password_123"}' https://kartochki.store/api/auth/login
+[2026-05-24 17:20:30,413 | INFO] Response status code='401', elapsed_time='0:00:00.405338'
+{
+  "statusCode": 401,
+  "message": "Invalid credentials",
+  "error": "Invalid credentials",
+  "timestamp": "2026-05-24T17:20:30.332Z",
+  "path": "/api/auth/login"
+}
+
