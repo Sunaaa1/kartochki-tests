@@ -1,0 +1,15 @@
+INFO     Logger:logger.py:35 New browser context created
+INFO     Logger:logger.py:35 New page created
+INFO     Logger:logger.py:35 TEST: test_login_wrong_password started
+INFO     Logger:logger.py:35 LoginPage: navigate to 'https://kartochki.store'
+INFO     Logger:logger.py:35 LoginPage: opened
+INFO     Logger:logger.py:35 LoginPage: login as 'sunnat.shukhratov@gmail.com'
+INFO     Logger:logger.py:35 Login page -> Email input: fill 'sunnat.shukhratov@gmail.com'
+INFO     Logger:logger.py:35 Login page -> Password input: fill '&+8lChTpkB'
+INFO     Logger:logger.py:35 Login page -> Submit button: click
+INFO     Logger:logger.py:35 Login page -> Error block: wait for state 'visible'
+INFO     Logger:logger.py:35 Login page -> Error block: check is visible
+INFO     Logger:logger.py:35 TEST: test_login_wrong_password passed
+INFO     Logger:logger.py:35 Page closed
+INFO     Logger:logger.py:35 Browser context closed
+INFO     Logger:logger.py:35 Browser closed
