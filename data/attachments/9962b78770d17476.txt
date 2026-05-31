@@ -1,0 +1,33 @@
+INFO     Logger:logger.py:35 Request: curl -X POST -H 'Accept: */*' -H 'Accept-Encoding: gzip, deflate' -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmNjhhMDQwNS00ZDU3LTRiNmEtOWQ0Yy02MDE4YjJkMzFkMDAiLCJlbWFpbCI6InN1bm5hdC5zaHVraHJhdG92QGdtYWlsLmNvbSIsIm9yZ0lkIjoiZWVhMjhlYjMtMzM2NS00N2NmLWJmMWQtNWQwODg4OGE0NGFmIiwiaXNBZG1pbiI6ZmFsc2UsImlhdCI6MTc4MDIyNDc1MiwiZXhwIjoxNzgwODI5NTUyfQ.ZbblskRADsXvAAFHw_8zrEeOAFyBatc50MfcLVKrG_s' -H 'Connection: keep-alive' -H 'Content-Length: 109' -H 'Content-Type: application/json' -H 'User-Agent: python-requests/2.32.3' -d '{"imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800", "marketplace": "wildberries"}' https://kartochki.store/api/products
+INFO     Logger:logger.py:35 Response status code='201', elapsed_time='0:00:00.200249'
+{
+  "id": "7d3a4a94-317e-4a49-a1a5-1229ec018dd8",
+  "orgId": "eea28eb3-3365-47cf-bf1d-5d08888a44af",
+  "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800",
+  "imageStoragePath": null,
+  "processedImageUrl": null,
+  "processedImageStoragePath": null,
+  "status": "pending",
+  "marketplace": "wildberries",
+  "brandId": null,
+  "seoTitle": null,
+  "description": null,
+  "attributes": null,
+  "categoryId": null,
+  "keywords": [],
+  "bulletPoints": null,
+  "marketplaceData": null,
+  "customPrompt": null,
+  "errorMessage": null,
+  "additionalImages": [],
+  "bgRemovedImages": [],
+  "exportedAt": null,
+  "exportedTo": null,
+  "isExported": false,
+  "wbSyncStatus": "none",
+  "wbNomenclatureId": null,
+  "wbPublishedAt": null,
+  "wbSyncError": null,
+  "createdAt": "2026-05-31T10:52:34.160Z",
+  "updatedAt": "2026-05-31T10:52:34.160Z"
+}
