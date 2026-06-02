@@ -1,0 +1,15 @@
+[2026-06-02 12:35:28,513 | INFO] New browser context created
+[2026-06-02 12:35:28,545 | INFO] New page created
+[2026-06-02 12:35:28,546 | INFO] TEST: test_login_wrong_password started
+[2026-06-02 12:35:28,546 | INFO] LoginPage: navigate to 'https://kartochki.store'
+[2026-06-02 12:35:32,296 | INFO] LoginPage: opened
+[2026-06-02 12:35:32,296 | INFO] LoginPage: login as 'sunnat.shukhratov@gmail.com'
+[2026-06-02 12:35:32,296 | INFO] Login page -> Email input: fill 'sunnat.shukhratov@gmail.com'
+[2026-06-02 12:35:32,500 | INFO] Login page -> Password input: fill '$O7F5a(@bk'
+[2026-06-02 12:35:32,549 | INFO] Login page -> Submit button: click
+[2026-06-02 12:35:33,523 | INFO] Login page -> Error block: wait for state 'visible'
+[2026-06-02 12:35:34,318 | INFO] Login page -> Error block: check is visible
+[2026-06-02 12:35:34,326 | INFO] TEST: test_login_wrong_password passed
+[2026-06-02 12:35:34,333 | INFO] Page closed
+[2026-06-02 12:35:34,345 | INFO] Browser context closed
+[2026-06-02 12:35:34,371 | INFO] Browser closed
