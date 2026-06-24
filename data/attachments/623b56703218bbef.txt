@@ -1,7 +1,0 @@
-[2026-06-23 11:53:19,458 | INFO] Browser launched
-[2026-06-23 11:53:19,469 | INFO] New browser context created
-[2026-06-23 11:53:19,504 | INFO] New page created
-[2026-06-23 11:53:19,505 | INFO] TEST: test_login_success started
-[2026-06-23 11:53:19,505 | INFO] LoginPage: navigate to 'https://kartochki.store'
-[2026-06-23 11:53:20,120 | INFO] Page closed
-[2026-06-23 11:53:20,126 | INFO] Browser context closed
